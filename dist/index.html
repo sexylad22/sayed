@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninit</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/67a8d57798.js" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,789&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body class="font-[rubik]">
+    <!-- container of slider -->
+    <div class="containe w-full h-[157.533px] border-b-[6px]">
+        <!-- slider wrapper -->
+        <div class="slider-wrapper relative m-0">
+            <!-- slider -->
+            <div class="slider flex overflow-x-hidden snap-x snap-mandatory aspect-[13/8] scroll-smooth" >
+                
+                <img id="slide1" src="img 1.jpg" alt="">
+                <img id="slide2" src="img 2.jpg" alt="">
+                
+            </div>
+            <!-- slider nav (two dots that change the img) -->
+            <div class="slider-nav flex gap-x-[2rem] absolute bottom-[2rem] z-[1] left-[47.5%] ">
+                <a href="#slide1"></a>
+                <a href="#slide2"></a>
+            </div>  
+        
+        </div>
+        
+        <!-- header -->
+        <div class="div1 flex justify-center self-center w-full h-[114px] top-0 absolute hover:bg-white duration-[0.5s]">
+            <!-- image -->
+            <div class="">
+                <a href="index.html">
+                    <img class=" myimg  absolute left-[45%]" src="white.png" width="220" height="34">
+                </a>
+                
+            </div>
+            <!-- nav -->
+            <div class="">
+                <ul class="text flex gap-x-[2rem] absolute right-[45%] text-white top-[38%] left-[3%]  ">
+                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0" ><a href="#home">Home</a></li>
+                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#about">About</a></li>
+                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#services">Services</a></li>
+                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- icons -->
+            </div>
+            <div class=" icons flex gap-6 text-white absolute self-center justify-start right-[3%]">
+                <a href=""><i class="hover:scale-150 fa-solid fa-magnifying-glass duration-[0.3s]"></i></a>
+                <a href=""><i class="hover:scale-150 fa-solid fa-user duration-[0.3s]"></i></a>
+                <a href=""><i class="hover:scale-150 fa-solid fa-cart-shopping duration-[0.3s]"></i></a>
+
+            </div>
+            
+
+            
+
+        </div>
+        <!-- new arrivals texts -->
+        <div class="w-full h-[2000px] relative flex justify-center pt-14 text-2xl font-bold tracking-wider">
+            <h1 class="absolute">New Arrivals</h1>
+                <div class="flex gap-[170px] relative  flex-row top-[100px] ">
+                    <!-- arrival divs -->
+                    <div class="" >
+                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants.png" alt="" width="350
+                        ">
+                        <!-- text under the new arrivals -->
+                        <div class="text-[15px] w-[1393]">
+                            <h1>Black Parachute Pants</h1>
+            
+                        </div>
+                        
+
+                    </div>
+
+                    <div>
+                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants 2.webp" alt="" width="350">
+
+                    </div>
+                    <div>
+                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="shirt 1.webp" alt="" width="350">
+
+                    </div>
+                </div>
+        
+            
+        </div>
+
+        
+    </div>
+    <!-- discount div and button -->
+    <div class=" div2  relative w-full h-[100px] top-[30%] pt-[280px] pl-[2rem] flex flex-col gap-4  " >
+        <p class="text-white text-2xl ">Up to 60% OFF ON SELECTED ITEMS </p>
+        <button class="bg-white  text-[#533223] w-[110px] p-2 rounded-md hover:scale-105 hover:bg-[#533223] hover:text-white duration-[0.3s]">SHOP NOW</button>
+    </div>
+    
+</body>
+</html>
