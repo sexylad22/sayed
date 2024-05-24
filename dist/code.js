@@ -75,4 +75,32 @@ document.addEventListener('DOMContentLoaded', () => {
 //     });
 // });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const img1 = document.querySelector('.img1');
+    const img2 = document.querySelector('.img2');   
+    const img3 = document.querySelector('.img3')
+    
+
+    img1.addEventListener('mouseover', () => {
+        img1.src = "ppantsback.webp";
+    });
+    img1.addEventListener('mouseout', () => {
+        img1.src = "pants.png";
+
+    });
+    img2.addEventListener('mouseover', () => {
+        img2.src = "olpback.webp";
+    });
+    img2.addEventListener('mouseout', () => {
+        img2.src = "pants 2.webp";
+
+    });
+    img3.addEventListener('mouseover', () => {
+        img3.src = "blteeback.webp";
+    });
+    img3.addEventListener('mouseout', () => {
+        img3.src = "shirt 1.webp";
+
+    });
+});
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="p-0 m-0">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,119 +10,245 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,789&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
 
     
 
 </head>
-<body class="font-[rubik]">
-    <!-- container of slider -->
-    <div class="containe w-full h-[157.533px] border-b-[6px]">
-        <!-- slider wrapper -->
-        <div class="slider-wrapper relative m-0">
-            <!-- slider -->
-            <div class="slider flex overflow-x-hidden snap-x snap-mandatory aspect-[13/8] scroll-smooth" >
-                
-                <img id="slide1" src="img 1.jpg" alt="">
-                <img id="slide2" src="img 2.jpg" alt="">
-                
-            </div>
-            <!-- slider nav (two dots that change the img) -->
-            <div class="slider-nav flex gap-x-[2rem] absolute bottom-[2rem] z-[1] left-[47.5%] ">
-                <a href="#slide1"></a>
-                <a href="#slide2"></a>
-            </div>  
-        
-        </div>
-        
-        <!-- header -->
-        <div class="div1 flex justify-center self-center w-full h-[114px] top-0 absolute hover:bg-white duration-[0.5s]">
-            <!-- image -->
-            <div class="">
-                <a href="index.html">
-                    <img class=" myimg  absolute left-[45%]" src="white.png" width="220" height="34">
-                </a>
-                
-            </div>
-            <!-- nav -->
-            <div class="">
-                <ul class="text flex gap-x-[2rem] absolute right-[45%] text-white top-[38%] left-[3%]  ">
-                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0" ><a href="#home">Home</a></li>
-                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#about">About</a></li>
-                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#services">Services</a></li>
-                    <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#contact">Contact</a></li>
-                </ul>
-                <!-- icons -->
-            </div>
-            <div class=" icons flex gap-6 text-white absolute self-center justify-start right-[3%]">
-                <a href=""><i class="hover:scale-150 fa-solid fa-magnifying-glass duration-[0.3s]"></i></a>
-                <a href=""><i class="hover:scale-150 fa-solid fa-user duration-[0.3s]"></i></a>
-                <a href=""><i class="hover:scale-150 fa-solid fa-cart-shopping duration-[0.3s]"></i></a>
-
+<body class="font-[rubik] p-0 m-0 overflow-x-hidden">
+    <div class="main div">
+        <!-- container of slider -->
+        <div class="containe w-full h-[157.533px] border-b-[6px]">
+            <!-- slider wrapper -->
+            <div class="slider-wrapper relative m-0">
+                <!-- slider -->
+                <div class="slider flex overflow-x-hidden snap-x snap-mandatory aspect-[13/8] scroll-smooth" >
+                    
+                    <img id="slide1" src="img 1.jpg" alt="">
+                    <img id="slide2" src="img 2.jpg" alt="">
+                    
+                </div>
+                <!-- slider nav (two dots that change the img) -->
+                <div class="slider-nav flex gap-x-[2rem] absolute bottom-[2rem] z-[1] left-[47.5%] ">
+                    <a href="#slide1"></a>
+                    <a href="#slide2"></a>
+                </div>  
+            
             </div>
             
+            <!-- header -->
+            <div class="div1 flex justify-center self-center w-full h-[114px] top-0 absolute hover:bg-white duration-[0.5s]">
+                <!-- image -->
+                <div class="">
+                    <a href="index.html">
+                        <img class=" myimg  absolute left-[45%]" src="white.png" width="220" height="34">
+                    </a>
+                    
+                </div>
+                <!-- nav -->
+                <div class="">
+                    <ul class="text flex gap-x-[2rem] absolute right-[45%] text-white top-[38%] left-[3%]  ">
+                        <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0" ><a href="#home">Home</a></li>
+                        <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#about">About</a></li>
+                        <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#services">Services</a></li>
+                        <li class=" lists after:h-[2px] after:w-full after:block after:bg-[#533223] after:opacity-0"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <!-- icons -->
+                </div>
+                <div class=" icons flex gap-6 text-white absolute self-center justify-start right-[3%]">
+                    <a href=""><i class="hover:scale-150 fa-solid fa-magnifying-glass duration-[0.3s]"></i></a>
+                    <a href=""><i class="hover:scale-150 fa-solid fa-user duration-[0.3s]"></i></a>
+                    <a href=""><i class="hover:scale-150 fa-solid fa-cart-shopping duration-[0.3s]"></i></a>
 
-            
+                </div>
+                
 
-        </div>
-        <!-- new arrivals texts -->
-        <div class="targetdiv w-full h-[1000px] relative flex justify-center pt-14 text-2xl font-bold tracking-wider">
-            <h1 class="absolute text-[#533223]">New Arrivals</h1>   
-                <div class="flex gap-[170px] relative  flex-row top-[100px] ">
-                    <!-- arrival divs -->
-                    <div class="" >
-                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants.png" alt="" width="350
-                        ">
-                        <!-- text under the new arrivals -->
-                        <div class="w-[100%] relative flex gap-6  justify-center top-[30px] ">
-                            <h1 class="text-[#533223] text-[18px]">parachute pants</h1>
+                
+
+            </div>
+            <!-- new arrivals texts -->
+            <div class="targetdiv w-full h-[1000px] relative flex justify-center pt-14 text-2xl font-bold tracking-wider">
+                <h1 class="absolute text-[#533223]">New Arrivals</h1>   
+                    <div class="flex gap-[170px] relative  flex-row top-[100px] ">
+                        <!-- arrival divs -->
+                        <div class="h-[346.5px]" >
+                            <img class=" img1 rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants.png" alt="" width="350
+                            ">
+                            <!-- text under the new arrivals -->
+                            <div class="w-[100%] relative flex gap-6  justify-center top-[30px] ">
+                                <h1 class="text-[#533223] text-[18px]">Parachute pants</h1>
+                            </div>
+                            <div class="w-[100%] relative top-[50px] 500 flex justify-center">
+                                <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
+
+                            </div>
                         </div>
-                        <div class="w-[100%] relative top-[50px] 500 flex justify-center">
-                            <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
+
+                        
+
+                        <div class="h-[346.5px]">
+                            <img class=" img2 rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants 2.webp" alt="" width="350">
+                            <!-- text under the new arrivals -->
+                            <div class="w-[100%] relative flex gap-6  justify-center top-[30px] ">
+                                <h1 class="text-[#533223] text-[18px]">Olive Parachute Pants</h1>
+                            </div>
+                            <div class="w-[100%] relative top-[50px] 500 flex justify-center">
+                                <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
+
+                            </div>
 
                         </div>
-                    </div>
+                        <div class="h-[346.5px]">
+                            <img class=" img3 rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="shirt 1.webp" alt="" width="350">
+                            <!-- text under the new arrivals -->
+                            <div class="w-[100%] relative flex gap-6  justify-center top-[30px]" >
+                                <h1 class="text-[#533223] text-[18px]">Stargazing Tee</h1>
+                            </div>
+                            <div class="w-[100%] relative top-[50px] 500 flex justify-center">
+                                <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
 
+                            </div>
+                            
+                                   
                     
 
-                    <div>
-                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="pants 2.webp" alt="" width="350">
-                        <!-- text under the new arrivals -->
-                        <div class="w-[100%] relative flex gap-6  justify-center top-[30px] ">
-                            <h1 class="text-[#533223] text-[18px]">Olive Parachute Pants</h1>
-                        </div>
-                        <div class="w-[100%] relative top-[50px] 500 flex justify-center">
-                            <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
 
                         </div>
-
                     </div>
-                    <div>
-                        <img class="rounded-sm shadow-lg hover:scale-105 duration-[0.3s]" src="shirt 1.webp" alt="" width="350">
-                        <!-- text under the new arrivals -->
-                        <div class="w-[100%] relative flex gap-6  justify-center top-[30px]" >
-                            <h1 class="text-[#533223] text-[18px]">Stargazing Tee</h1>
-                        </div>
-                        <div class="w-[100%] relative top-[50px] 500 flex justify-center">
-                            <button class="bg-[#533223] h-[35px] w-[146px] text-[17px] text-white p-[3px] rounded-md hover:scale-105 duration-[0.3s]">SHOP NOW</button>
+                    
+                
+            </div>
+            
+            
 
-                        </div>
-
-                    </div>
-                </div>
-        
             
         </div>
         
+        <!-- discount div and button -->
+        <div class=" div2  relative w-full h-[100px] top-[80%] pt-[280px] pl-[2rem] flex flex-col gap-4  " >
+            <p class="text-white text-2xl ">Up to 60% OFF ON SELECTED ITEMS </p>
+            <button class="bg-white  text-[#533223] w-[110px] p-2 rounded-md hover:scale-105 hover:bg-[#533223] hover:text-white duration-[0.3s]">SHOP NOW</button>
+        </div>
+        <!-- review part -->
+        <div class="reviews h-[250px] w-full bg-[#F7F7F7] relative top-[1500px] text-[#533223] ">
+            <!-- stars div -->
+            <div class="h-[80px]  top-[20%] flex flex-row justify-between pt-[75px] px-[228px]">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                
+                
+            </div>
+            <!-- text div -->
+            <div class="h-[149.6px] w-full bottom-0 flex flex-row justify-between items-center px-[150px]">
+                <div class="h-[70px] w-[280px] top-[30%] flex justify-center items-center">
+                    <h1  class="h-[67.2px] w-[300px] text-[14px] ">" I absolutely loved my pieces, quality, fit & style. And told my friends to support your brand.” – N.G</h1>
+
+                </div>
+                <div class="h-[70px] w-[280px] flex justify-center items-center ">
+                    <h1  class=" h-[67.2px] w-[300px] text-[14px] ">“Love your collection, it’s so raw yet fashionable” – J.H</h1>
+
+                </div>
+                <div class="h-[70px] w-[280px] flex justify-center items-center ">
+                    <h1  class=" h-[px] w-[3000px] text-[14px] ">“Thank you so much I just received my order. It’s so soft.. I LOVE IT & works great with me during early pregnancy” – M.F – N.G</h1>
+
+                </div>
+                
+            </div>
+
+        </div>
         
+               
+
+    <footer class=" footer h-[312.5px] w-full bg-[#533223] relative top-[1900px] bottom-0">
+    <!-- content div -->
+    <!-- first half of footer -->
+    <div class="mydiv w-full h-[156.25px] flex items-center justify-center">
+        <div class="h-[24px] w-[400px] flex justify-center items-center gap-[30px] text-white">
+            <a href="" class=" atags after:h-[2px] after:w-full after:block after:bg-white after:opacity-0 ">Features</a>
+            <a href="" class="atags">Blog</a>
+            <a href="" class="atags">Pricing</a>
+            <a href="" class="atags">Services</a>
+        </div>
+        <div class=" divk absolute h-[65px] w-[100%] flex justify-between items-center px-3">
+            <div class="w-[300px] h-[40px]">
+                <input type="text" class="bg-white text-[#533223] w-[300px] h-[40px] p-[10px] border-0 rounded-md outline-none" placeholder="Enter your email">    
+            </div>
+            <button class="absolute left-[285px] text-[#533223]"><i class="fa-solid fa-arrow-right "></i></button>
+            
+            
+            <!-- icons container -->
+            <div class="h-[64px] w-[220px] flex gap-5 justify-center items-center">
+                <div class="bg-white rounded-[50%] w-[40px] h-[40px] flex justify-center items-center hover:scale-105 duration-[0.3s]">
+                    <i class="fa-brands fa-instagram text-[20px] text-[#533223]"></i>
+                </div>
+                <div class="bg-white rounded-[50%] w-[40px] h-[40px] flex justify-center items-center hover:scale-105 duration-[0.3s]">
+                    <i class="fa-brands fa-twitter text-[#533223]"></i>
+                </div>
+                <div class="bg-white rounded-[50%] w-[40px] h-[40px] flex justify-center items-center hover:scale-105 duration-[0.3s]">
+                    <i class="fa-brands fa-facebook text-[#533223]"></i>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+    
+        
+        
+    
+    <hr>
+    <!-- second half -->
+    <div class="h-[142px] w-full ">
+       <div class=" absolute w-full flex justify-center items-center h-[142px]">
+        <img src="white.png" alt="" width="120" height="" class="mb-[12px]">
+        <div class="absolute w-full flex justify-end items-center h-[142px] pr-[208px]">
+            <h1 class="text-white font-sans">Copyright &copy;. All rights reserved.</h1>
+        </div>
+            <div class="h-[48px] w-[320px]  absolute left-0 flex flex-row items-center gap-[30px] text-white pl-[225px]">
+                <a href="" class="atags">Terms</a>
+                <a href="" class="atags">About</a>
+                <a href="" class="atags">Privacy</a>
+                <a href="" class="atags">Contact</a>
+
+            </div>
+
+       </div>
+    </div>
+    
+    
+    
+    
+    
+   
+    
+
+</footer>
+
 
         
     </div>
-    <!-- discount div and button -->
-    <div class=" div2  relative w-full h-[100px] top-[30%] pt-[280px] pl-[2rem] flex flex-col gap-4  " >
-        <p class="text-white text-2xl ">Up to 60% OFF ON SELECTED ITEMS </p>
-        <button class="bg-white  text-[#533223] w-[110px] p-2 rounded-md hover:scale-105 hover:bg-[#533223] hover:text-white duration-[0.3s]">SHOP NOW</button>
-    </div>
-    <footer class="h-[431] w-full bg-[#533223] relative bottom-0"></footer>
 
         
       

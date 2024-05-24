@@ -30,3 +30,20 @@
         transition: opacity ease 1.1s;
     }
     
+    * {
+        scrollbar-width: none;
+
+    }
+
+    .footer {
+        font-family: 'Poppins', sans-serif;
+    }
+    .divk {
+        /* border: 2px solid red; */
+    }
+
+    .atags:hover::after {
+        opacity: 1;
+        transition: opacity ease 1.1s;
+    }
+        
